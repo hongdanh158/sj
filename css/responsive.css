@@ -13,6 +13,11 @@
 	.main-nav, .top-menu .language {
 		display: none;
 	}
+	.register-form {
+		margin-top: 3rem;
+		padding-left: 0;
+	    border-left: 0;
+	}
 }
 @media (max-width: 800px) {
 	
@@ -39,10 +44,31 @@
 }
 
 @media (max-width: 600px) {
-	.list-article .item .col.date {
-	    width: 8rem;
-	    padding-right: 1rem;
+	.list-article .item {
+		display: block;
+		border-bottom: 1px dotted #e1e1e1;
+		margin-bottom: 2rem;
+		padding: 2rem 0;
 	}
+	.list-article .item .col {
+		display: block;
+	    padding: 0;
+	}
+	.list-article .item .col.date {
+		width: 100%;
+		padding-right: 0;
+	}
+	.list-article .item .col.date .box {
+		display: none;
+		margin-bottom: 1rem;
+	}
+	.list-article .item .col.date .box.img {
+		display: block;
+	}
+	.list-article .item .title a {
+		color: #00880E;
+	}
+
 }
 @media (max-width: 420px) {
 	.header .logo {

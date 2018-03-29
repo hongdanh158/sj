@@ -30,8 +30,8 @@
 				</div>
 				<div class="col l7 s12 action">
 					<ul class="login">
-						<li><a href="login.php"><i class="fas fa-lock"></i> Đăng ký</a></li>
-						<li><a href="login.php"><i class="fas fa-lock-open"></i> Đăng nhập</a></li>
+						<li><a href="login.php#register-form"><i class="fas fa-lock"></i> Đăng ký</a></li>
+						<li><a href="login.php#login-form"><i class="fas fa-lock-open"></i> Đăng nhập</a></li>
 						<li>
 							<a class='dropdown-trigger alert-btn' href='#' data-target='alert'><i class="fas fa-bell"></i> <span class="badge red">3</span></a>
 							<!-- Dropdown Structure -->
@@ -46,14 +46,12 @@
 							<ul id='account' class='dropdown-content'>
 							    <li><a href="#!"><i class="material-icons">info</i>Thông tin cá nhân</a></li>
 							    <li><a href="#!"><i class="material-icons">library_books</i>Danh sách bài báo</a></li>
-							    <li><a href="#!"><i class="material-icons">cloud_upload</i>Gửi bài báo mới</a></li>
+							    <li><a href="send-article.php"><i class="material-icons">cloud_upload</i>Gửi bài báo mới</a></li>
 							    <li><a href="#!"><i class="material-icons">chat</i>Bình duyệt bài báo</a></li>
 							    <li><a href="#!"><i class="material-icons">exit_to_app</i>Đăng xuất</a></li>
 							</ul>
 						</li>
-					</ul>
-					
-					
+					</ul>					
 				</div>
 			</div>
 		</div>

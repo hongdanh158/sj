@@ -129,8 +129,17 @@ $(document).ready(function() {
 	
 	//Set height date box article.
    	function heightDateArticle() {
-   		 if ($('.list-article .item .col.date .box').length) {
-	    	$('.list-article .item .col.date .box').height($('.list-article .item .col.date .box').width())
+   		if ($('.list-article .item .col.date .box a').length) {
+   			if ($(window).width() > 600) {
+				$('.list-article .item .col.date .box a').height($('.list-article .item .col.date .box a').width())
+   			}
+   			else {
+   				$('.list-article .item .col.date .box a').height($('.list-article .item .col.date .box a').width()/2)
+   			}
+	    	
+	    }
+	    if ($('.list-volume .item .col.number .box').length) {
+	    	$('.list-volume .item .col.number .box').height($('.list-volume .item .col.number .box').width())
 	    }
    	}
 
