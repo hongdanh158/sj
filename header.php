@@ -31,8 +31,8 @@
 				</div>
 				<div class="col l7 s12 action">
 					<ul class="login">
-						<li><a href="login.php#register-form"><i class="ti-lock"></i> Đăng ký</a></li>
-						<li><a href="login.php#login-form"><i class="ti-unlock"></i> Đăng nhập</a></li>
+						<!-- <li><a href="login.php#register-form"><i class="ti-lock"></i> Đăng ký</a></li>
+						<li><a href="login.php#login-form"><i class="ti-unlock"></i> Đăng nhập</a></li> -->
 						<li>
 							<a class='dropdown-trigger alert-btn' href='#' data-target='alert'><i class="ti-bell"></i> <span class="badge red">3</span></a>
 							<!-- Dropdown Structure -->
