@@ -6,6 +6,7 @@
 	<title>Tạp chí Khoa học Trường Đại học An Giang</title>
 	<link rel="stylesheet" href="css/materialize.css">
 	<link rel="stylesheet" href="css/icon.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
 	<link rel="stylesheet" href="js/slick/slick.css">
 	<link rel="stylesheet" href="js/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css?v=1">
@@ -30,25 +31,25 @@
 				</div>
 				<div class="col l7 s12 action">
 					<ul class="login">
-						<li><a href="login.php#register-form"><i class="fas fa-lock"></i> Đăng ký</a></li>
-						<li><a href="login.php#login-form"><i class="fas fa-lock-open"></i> Đăng nhập</a></li>
+						<li><a href="login.php#register-form"><i class="ti-lock"></i> Đăng ký</a></li>
+						<li><a href="login.php#login-form"><i class="ti-unlock"></i> Đăng nhập</a></li>
 						<li>
-							<a class='dropdown-trigger alert-btn' href='#' data-target='alert'><i class="fas fa-bell"></i> <span class="badge red">3</span></a>
+							<a class='dropdown-trigger alert-btn' href='#' data-target='alert'><i class="ti-bell"></i> <span class="badge red">3</span></a>
 							<!-- Dropdown Structure -->
 							<ul id='alert' class='dropdown-content'>
-							    <li><a href="#!"><span class="badge red">1</span> <i class="material-icons">chat</i>Bài báo đang bình duyệt</a></li>
-							    <li><a href="#!"><span class="badge red">1</span> <i class="material-icons">library_books</i>Bài báo gửi đăng</a></li>
-							    <li><a href="#!"><span class="badge red">1</span> <i class="material-icons">email</i>Thông báo từ tạp chí</a></li>
+							    <li><a href="#!"><span class="badge red">1</span> <i class="ti-comment-alt"></i>Bài báo đang bình duyệt</a></li>
+							    <li><a href="#!"><span class="badge red">1</span> <i class="ti-receipt"></i>Bài báo gửi đăng</a></li>
+							    <li><a href="#!"><span class="badge red">1</span> <i class="ti-alert"></i>Thông báo từ tạp chí</a></li>
 							</ul>
 						</li>
-						<li><a class='dropdown-trigger account-btn' href='#' data-target='account'><i class="fas fa-user-circle"></i> Lê Trương Hồng Danh</a>
+						<li><a class='dropdown-trigger account-btn' href='#' data-target='account'><i class="ti-user"></i> Lê Trương Hồng Danh</a>
 							<!-- Dropdown Structure -->
 							<ul id='account' class='dropdown-content'>
-							    <li><a href="#!"><i class="material-icons">info</i>Thông tin cá nhân</a></li>
-							    <li><a href="#!"><i class="material-icons">library_books</i>Danh sách bài báo</a></li>
-							    <li><a href="send-article.php"><i class="material-icons">cloud_upload</i>Gửi bài báo mới</a></li>
-							    <li><a href="#!"><i class="material-icons">chat</i>Bình duyệt bài báo</a></li>
-							    <li><a href="#!"><i class="material-icons">exit_to_app</i>Đăng xuất</a></li>
+							    <li><a href="#!"><i class="ti-user"></i>Thông tin cá nhân</a></li>
+							    <li><a href="#!"><i class="ti-list-ol"></i>Danh sách bài báo</a></li>
+							    <li><a href="send-article.php"><i class="ti-upload"></i>Gửi bài báo mới</a></li>
+							    <li><a href="#!"><i class="ti-comment-alt"></i>Bình duyệt bài báo</a></li>
+							    <li><a href="#!"><i class="ti-shift-right"></i>Đăng xuất</a></li>
 							</ul>
 						</li>
 					</ul>					

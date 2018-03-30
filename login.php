@@ -18,7 +18,7 @@
 					<div class="row">
 						<div class="col l5 s12">
 							<div class="block login-form" id="login-form">
-								<h2 class="heading"><i class="material-icons">lock</i> Đăng nhập</h2>
+								<h2 class="heading"><i class="ti-lock"></i> Đăng nhập</h2>
 								<div class="content">
 									<form action="" method="post">
 										<div class="input-field">
@@ -41,7 +41,7 @@
 						</div>
 						<div class="col l7  s12">
 							<div class="block register-form"  id="register-form">
-								<h2 class="heading"><i class="material-icons">account_box</i> Đăng ký</h2>
+								<h2 class="heading"><i class="ti-unlock"></i> Đăng ký</h2>
 								<div class="content">
 									<form action="" method="post">
 										<div class="input-field">

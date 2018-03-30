@@ -16,7 +16,7 @@
 			<div class="container">
 				<div class="body-left col l9 s12">
 					<div class="row block send-article-form" id="send-article-form">
-						<h2 class="heading"><i class="material-icons">lock</i> Quyển 17 (5)</h2>
+						<h2 class="heading"><i class="ti-book"></i> Quyển 17 (5)</h2>
 						<div class="content list-article">
 							<article class="item">
 								<div class="date col">
@@ -104,7 +104,7 @@
 				</div>
 				<div class="body-right col l3 s12">
 					<div class="block">
-						<h2 class="heading"><i class="fas fa-newspaper"></i> TẠP CHÍ ĐÃ XUẤT BẢN</h2>
+						<h2 class="heading"><i class="ti-book"></i> TẠP CHÍ ĐÃ XUẤT BẢN</h2>
 						<div class="content list-volume">
 							<div class="item">
 								<div class="col number">
@@ -164,7 +164,7 @@
 						</div>
 					</div>
 					<div class="block">
-						<h2 class="heading"><i class="fas fa-star"></i> TẠP CHÍ SỐ ĐẶC BIỆT</h2>
+						<h2 class="heading"><i class="ti-star"></i> TẠP CHÍ SỐ ĐẶC BIỆT</h2>
 						<div class="content list-volume">
 							<div class="item">
 								<div class="col number">

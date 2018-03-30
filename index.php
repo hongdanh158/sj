@@ -18,17 +18,17 @@
 	<section class="three-box">
 		<div class="container">
 			<div class="item">
-				<a href="send-article.php" class="icon"><i class="far fa-newspaper"></i></a>
+				<a href="send-article.php" class="icon"><span class="ti-email"></span></a>
 				<h2 class="name"><a href="send-article.php">Gửi bài đăng</a></h2>
 				<p class="description">Tác giả gửi bài đăng Tạp chí Khoa học Trường Đại học An Giang tại đây</p>
 			</div>
 			<div class="item">
-				<a  href="#" class="icon"><i class="fas fa-balance-scale"></i></a>
+				<a  href="#" class="icon"><span class="ti-ruler-pencil"></span></a>
 				<h2 class="name"><a href="#">Quy định chung</a></h2>
 				<p class="description">Quy định tổ chức và hoạt động của Tạp chí, Quy định thể lệ bài viết đăng Tạp chí,...</p>
 			</div>
 			<div class="item">
-				<a href="#"  class="icon"><i class="fas fa-list-ol"></i></a>
+				<a href="#"  class="icon"><span class="ti-list-ol"></span></a>
 				<h2 class="name"><a href="#">TẠP CHÍ ĐÃ XUẤT BẢN</a></h2>
 				<p class="description">Danh sách các quyển Tạp chí Khoa học Trường  Đại học An Giang đã xuất bản</p>
 			</div>
