@@ -118,7 +118,6 @@ $(document).ready(function() {
 		document.body.removeChild (outer);
 		return (w1 - w2);
 	};
-	
 	$(window).scroll(function(){
 	    if ($(this).scrollTop() > 100) {
 	      $('.scrollToTop').fadeIn();
@@ -126,6 +125,7 @@ $(document).ready(function() {
 	      $('.scrollToTop').fadeOut();
 	    }
 	});
+	
 	
 	//Set height date box article.
    	function heightDateArticle() {
@@ -154,7 +154,7 @@ $(document).ready(function() {
 	        window.resizeEvt = setTimeout(function(){
 	        	closeSlidebar();
 	        	$('.sub-menu').attr('visible', 'false');
-	        	heightDateArticle()
+	        	setLeftAlert();
 	        }, 100);
 	    });
 	});

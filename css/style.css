@@ -222,6 +222,7 @@ nav ul a {
 }
 .top-menu .action {
     text-align: right;
+    padding-left: 0;
 }
 .top-menu .login li {
     display: inline-block;

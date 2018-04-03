@@ -19,6 +19,11 @@
 	    border-left: 0;
 	}
 }
+@media (max-width: 992px) {
+	.body .body-left {
+		padding-right: 0;
+	}
+}
 @media (max-width: 800px) {
 	
 }
@@ -73,9 +78,13 @@
 @media (max-width: 420px) {
 	.header .logo {
 		width: 17rem;
+		padding: 1rem 0;
 	}
 	.js-menu-mobile {
 		margin-top: 0.3rem;
+	}
+	.top-menu .container {
+		padding-left: 0;
 	}
 }
 @media (max-width: 320px) {
